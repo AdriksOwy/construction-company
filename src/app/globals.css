@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav,
+h1,
+h2,
+label {
+  @apply font-builders;
+}
+
+p,
+span {
+  @apply font-robot;
+  @apply tracking-wide;
+}
+
+h1 {
+  @apply tracking-widest;
+}
+
+h2 {
+  @apply tracking-wider;
+}
